@@ -196,7 +196,7 @@ bar {
 #---------------------------------------
 
 #set wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Pictures/clouds.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/parrot.jpg
 
 #default split vertical
 default_orientation horizontal
@@ -213,6 +213,9 @@ gaps inner 12
 
 #screenshot tool
 bindsym $mod+P exec flameshot gui
+
+#file manager
+bindsym $mod+C exec caja 
 
 #picom
 exec_always picom
