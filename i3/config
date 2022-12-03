@@ -55,7 +55,9 @@ bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run 
-bindsym $mod+d exec rofi -show drun -opacity "85" 
+#bindsym $mod+d exec rofi -show drun -opacity "85" 
+bindsym $mod+d exec "rofi -show run" 
+
 
 
 
@@ -196,17 +198,18 @@ bar {
 #---------------------------------------
 
 #set wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/parrot.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/street.jpg
 
 #default split vertical
 default_orientation horizontal
 
 #set screen resolution
-exec_always --no-startup-id xrandr -s 1920x1080
+#exec_always --no-startup-id xrandr -s 1920x1080
 
 #remove titlebar
 default_border pixel 1
 default_floating_border pixel 1
+
 
 #gaps
 gaps inner 12
@@ -215,7 +218,13 @@ gaps inner 12
 bindsym $mod+P exec flameshot gui
 
 #file manager
-bindsym $mod+C exec caja 
+bindsym $mod+C exec nautilus
 
 #picom
 exec_always picom
+
+#purple -> TODO
+#client.focused			#b202c9		#b202c9		#b202c9		#b202c9
+#client.focused_inactive		#b202c9		#b202c9		#b202c9		#b202c9
+
+
