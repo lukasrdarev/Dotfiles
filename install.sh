@@ -1,6 +1,7 @@
 
 #!/bin/zsh
 
+# install.sh should be run without sudo
 
 sudo apt update
 sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh nitrogen picom npm flameshot
@@ -22,5 +23,7 @@ cp "rofi/config.rasi"           "$HOME/.config/rofi/config.rasi"
 
 #--------------------------------------------------------------------------
 
+echo "\n\n"
 echo "[+] Done"
 echo "[+] Restart and enjoy"
+
