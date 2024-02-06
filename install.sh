@@ -2,18 +2,22 @@
 #!/bin/zsh
 
 
-git clone https://github.com/burw0r/Dotfiles.git $HOME
-
 sudo apt update
 sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh nitrogen npm flameshot
-npm i -g alacritty-themes
+sudo npm i -g alacritty-themes
 
 
-cp "$HOME/Dotfiles/alacritty/alacritty.yml" "$HOME/.config/alacritty/alacritty.yml"
-cp "$HOME/Dotfiles/i3/config" "$HOME/.config/i3/config"
-cp "$HOME/Dotfiles/wallpapers/"* "$HOME/Pictures/wallpapers/"
-cp "$HOME/Dotfiles/tmux/.tmux.conf" "$HOME/.tmux.conf"
-cp "$HOME/Dotfiles/rofi/config.rasi" "$HOME/.config/rofi/config.rasi"
+mkdir -p ~/.config/alacritty/
+mkdir -p ~/.config/i3/
+mkdir -p ~/Pictures/wallpapers/
+mkdir -p ~/.config/rofi/
+
+
+cp "alacritty/alacritty.yml"    "$HOME/.config/alacritty/alacritty.yml"
+cp "i3/config"                  "$HOME/.config/i3/config"
+cp "wallpapers/"*               "$HOME/Pictures/wallpapers/"
+cp "tmux/.tmux.conf"            "$HOME/.tmux.conf"
+cp "rofi/config.rasi"           "$HOME/.config/rofi/config.rasi"
 
 
 #--------------------------------------------------------------------------
