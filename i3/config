@@ -30,7 +30,7 @@ exec --no-startup-id dex --autostart --environment i3
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
-exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+# exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 
 # NetworkManager is the most popular way to manage wireless networks on Linux,
 # and nm-applet is a desktop environment-independent system tray GUI for it.
@@ -48,7 +48,7 @@ floating_modifier $mod
 
 # start a terminal
 #bindsym $mod+Return exec i3-sensible-terminal
-bindsym $mod+Return exec terminator
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -56,8 +56,7 @@ bindsym $mod+Shift+q kill
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run 
 #bindsym $mod+d exec rofi -show drun -opacity "85" 
-bindsym $mod+d exec "rofi -show run" 
-
+bindsym $mod+d exec "rofi -show drun" 
 
 
 
@@ -175,10 +174,10 @@ mode "resize" {
         bindsym semicolon resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 3 px or 3 ppt
+        bindsym Down resize grow height 3 px or 3 ppt
+        bindsym Up resize shrink height 3 px or 3 ppt
+        bindsym Right resize grow width 3 px or 3 ppt
 
         # back to normal: Enter or Escape or $mod+r
         bindsym Return mode "default"
@@ -188,17 +187,28 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
+# Start i3bar to display a workspace bar (plus the system information i3status finds out, if available)
+
 bar {
-        status_command i3status
+        i3bar_command i3bar --transparency
+        font pango:Jetbrains Mono 9
+        #status_command i3blocks -c ~/.config/i3/i3blocks.conf
+        #status_command i3status
+        position bottom
+        colors {
+            statusline #EEEEEE
+            background #1C1D2B88
+            focused_workspace #282A3E88 #282A3E88 #FFFFFF
+            statusline #E6FFF5#        }
+
 }
+
 
 
 #---------------------------------------
 
 #set wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/street.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/wallpaper-1.jpg
 
 #default split vertical
 default_orientation horizontal
@@ -218,13 +228,13 @@ gaps inner 12
 bindsym $mod+P exec flameshot gui
 
 #file manager
-bindsym $mod+C exec nautilus
+bindsym $mod+C exec thunar
 
 #picom
 exec_always picom
 
-#purple -> TODO
-#client.focused			#b202c9		#b202c9		#b202c9		#b202c9
-#client.focused_inactive		#b202c9		#b202c9		#b202c9		#b202c9
+# purple window borders
+# client.focused			#b202c9		#b202c9		#b202c9		#b202c9
+# client.focused_inactive		#b202c9		#b202c9		#b202c9		#b202c9
 
 
