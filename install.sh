@@ -25,5 +25,4 @@ cp "rofi/config.rasi"           "$HOME/.config/rofi/config.rasi"
 
 echo "\n\n"
 echo "[+] Done"
-echo "[+] Restart and enjoy"
 
