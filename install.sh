@@ -4,6 +4,7 @@
 
 git clone https://github.com/burw0r/Dotfiles.git $HOME
 
+sudo apt update
 sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh nitrogen npm flameshot
 npm i -g alacritty-themes
 
