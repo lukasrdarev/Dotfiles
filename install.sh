@@ -21,6 +21,9 @@ cp "tmux/.tmux.conf"            "$HOME/.tmux.conf"
 cp "rofi/config.rasi"           "$HOME/.config/rofi/config.rasi"
 
 
+echo 'PS1="%F{blue}%n%f %F{red}%~%f >> "' >> ~/.zshrc
+
+
 #--------------------------------------------------------------------------
 
 echo "\n\n"
