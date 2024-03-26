@@ -16,7 +16,8 @@ mkdir -p ~/.config/rofi/
 
 cp "alacritty/alacritty.yml"    "$HOME/.config/alacritty/alacritty.yml"
 cp "i3/config"                  "$HOME/.config/i3/config"
-cp "wallpapers/"*               "$HOME/Pictures/wallpapers/"
+cp "wallpapers/wallpapers.zip"  "$HOME/Pictures/wallpapers/"
+unzip "$HOME/Pictures/wallpapers/wallpapers.zip" -d "$HOME/Pictures/wallpapers/"
 cp "tmux/.tmux.conf"            "$HOME/.tmux.conf"
 cp "rofi/config.rasi"           "$HOME/.config/rofi/config.rasi"
 
