@@ -240,3 +240,8 @@ exec_always picom
 #neon green window borders
 #client.focused                 #39FF14         #39FF14         #39FF14         #39FF14
 #client.focused_inactive        #39FF14         #39FF14         #39FF14         #39FF14
+
+
+#cyan window borders
+#client.focused                 #00FFFF         #00FFFF         #00FFFF         #00FFFF
+#client.focused_inactive        #00FFFF         #00FFFF         #00FFFF         #00FFFF
