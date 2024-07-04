@@ -1,0 +1,17 @@
+import = [
+    "~/.config/alacritty/themes/themes/github_dark_high_contrast.toml"
+]
+
+[font]
+size = 9.6
+
+[font.normal]
+family = "Jetbrains Mono"
+
+[window]
+opacity = 0.9
+
+[window.dimensions]
+columns = 180
+lines = 56
+

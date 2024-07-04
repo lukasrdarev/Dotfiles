@@ -4,12 +4,12 @@
 # install.sh should be run without sudo
 
 sudo apt update
-sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh nitrogen picom npm flameshot rofi thunar
+sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh nitrogen picom  flameshot rofi thunar
 sudo pip3 install pywal
-sudo npm i -g alacritty-themes
 
 
 mkdir -p ~/.config/alacritty/
+mkdir -p ~/.config/alacritty/themes
 mkdir -p ~/.config/i3/
 mkdir -p ~/Pictures/wallpapers/
 mkdir -p ~/.config/rofi/
@@ -24,6 +24,8 @@ cp "rofi/config.rasi"           "$HOME/.config/rofi/config.rasi"
 
 
 #echo 'PS1="%F{blue}%n%f %F{red}%~%f >> "' >> ~/.zshrc
+
+git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/themes
 
 
 #--------------------------------------------------------------------------
