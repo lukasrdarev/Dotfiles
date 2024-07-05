@@ -21,7 +21,7 @@ cp "wallpapers/wallpapers.zip"  "$HOME/Pictures/wallpapers/"
 unzip "$HOME/Pictures/wallpapers/wallpapers.zip" -d "$HOME/Pictures/wallpapers/"
 cp "tmux/.tmux.conf"            "$HOME/.tmux.conf"
 cp "rofi/config.rasi"           "$HOME/.config/rofi/config.rasi"
-
+cp randomtheme.sh /usr/bin/randomtheme.sh
 
 #echo 'PS1="%F{blue}%n%f %F{red}%~%f >> "' >> ~/.zshrc
 
