@@ -218,8 +218,8 @@ default_orientation horizontal
 #exec_always --no-startup-id xrandr -s 1920x1080
 
 #remove titlebar
-default_border pixel 1
-default_floating_border pixel 1
+default_border pixel 0
+default_floating_border pixel 0
 
 #gaps
 gaps inner 12
