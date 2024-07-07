@@ -271,4 +271,4 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 client.background       $bg
 
 # dynamically set dmenu's colors:
-bindsym $mod+m exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
+bindsym $mod+m exec dmenu_run
