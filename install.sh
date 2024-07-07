@@ -23,7 +23,7 @@ cp "wallpapers/wallpapers.zip"   "$HOME/Pictures/wallpapers/"
 unzip "$HOME/Pictures/wallpapers/wallpapers.zip" -d "$HOME/Pictures/wallpapers/"
 cp "tmux/.tmux.conf"             "$HOME/.tmux.conf"
 cp "rofi/config.rasi"            "$HOME/.config/rofi/config.rasi"
-cp "kitty/*"           		 "$HOME/.config/kitty/"
+cp "kitty/kitty.conf"            "$HOME/.config/kitty/kitty.conf"
 sudo cp ./randomtheme.sh /usr/local/bin
 
 #echo 'PS1="%F{blue}%n%f %F{red}%~%f >> "' >> ~/.zshrc
