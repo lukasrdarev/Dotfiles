@@ -14,6 +14,7 @@ mkdir -p ~/.config/i3/
 mkdir -p ~/Pictures/wallpapers/
 mkdir -p ~/.config/rofi/
 mkdir -p ~/.config/kitty/
+mkdir -p ~/.config/picom/
 
 
 cp "alacritty/alacritty.toml"    "$HOME/.config/alacritty/alacritty.toml"
