@@ -30,6 +30,9 @@ git clone https://github.com/alacritty/alacritty-theme ~/.config/alacritty/theme
 
 #--------------------------------------------------------------------------
 
+echo "[!] Picom config not set due to possible performance issues with blurring."
+echo "	- enable hardware acceleration, then copy ./picom/picom.conf to ~/.config/picom/"
+
 echo "\n\n"
 echo "[+] Done"
 

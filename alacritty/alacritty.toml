@@ -1,5 +1,5 @@
 
-import = [ "~/.config/alacritty/themes/themes/github_dark_tritanopia.toml" ]
+import = ["/home/kali/.config/alacritty/themes/themes/github_dark_tritanopia.toml"]
 
 [font]
 size = 9.6
@@ -8,7 +8,7 @@ size = 9.6
 family = "Jetbrains Mono"
 
 [window]
-opacity = 0.9
+opacity = 0.7
 
 [window.dimensions]
 columns = 180
