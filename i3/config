@@ -235,7 +235,7 @@ bindsym $mod+P exec flameshot gui
 bindsym $mod+C exec thunar
 
 #picom
-exec_always picom
+exec_always picom -b
 
 # purple window borders
 #client.focused                 #b202c9         #b202c9         #b202c9         #b202c9
@@ -271,4 +271,4 @@ client.placeholder      $bg     $bg     $fg  $bg       $bg
 client.background       $bg
 
 # dynamically set dmenu's colors:
-bindsym $mod+n exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
+bindsym $mod+m exec dmenu_run -nb "$fg" -nf "$bg" -sb "$bg" -sf "$fg"
