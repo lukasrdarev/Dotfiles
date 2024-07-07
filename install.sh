@@ -13,7 +13,7 @@ mkdir -p ~/.config/alacritty/themes
 mkdir -p ~/.config/i3/
 mkdir -p ~/Pictures/wallpapers/
 mkdir -p ~/.config/rofi/
-mkdir -p ~/.config/kitty/
+#mkdir -p ~/.config/kitty/
 mkdir -p ~/.config/picom/
 
 
@@ -23,7 +23,7 @@ cp "wallpapers/wallpapers.zip"   "$HOME/Pictures/wallpapers/"
 unzip "$HOME/Pictures/wallpapers/wallpapers.zip" -d "$HOME/Pictures/wallpapers/"
 cp "tmux/.tmux.conf"             "$HOME/.tmux.conf"
 cp "rofi/config.rasi"            "$HOME/.config/rofi/config.rasi"
-cp "kitty/kitty.conf"            "$HOME/.config/kitty/kitty.conf"
+#cp "kitty/kitty.conf"            "$HOME/.config/kitty/kitty.conf"
 sudo cp ./randomtheme.sh /usr/local/bin
 
 #echo 'PS1="%F{blue}%n%f %F{red}%~%f >> "' >> ~/.zshrc
