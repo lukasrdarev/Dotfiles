@@ -235,7 +235,7 @@ bindsym $mod+P exec flameshot gui
 bindsym $mod+C exec thunar
 
 #picom
-exec_always picom -b
+exec_always --no-startup-id picom -b
 
 # purple window borders
 #client.focused                 #b202c9         #b202c9         #b202c9         #b202c9
