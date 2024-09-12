@@ -1,0 +1,76 @@
+[global_config]
+[keybindings]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_darkness = 0.75
+    background_type = transparent
+    font = JetBrains Mono 10
+    foreground_color = "#00ff00"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#b50453:#33d17a:#cd14ff:#00ffff:#cd00cd:#00ffff:#faebd7:#404040:#b50453:#33d17a:#cd14ff:#cd14ff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+  [[default solid]]
+    allow_bold = False
+    background_darkness = 0.71
+    font = JetBrains Mono 10
+    foreground_color = "#00ff00"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#b50453:#33d17a:#cd14ff:#00ffff:#cd00cd:#00ffff:#faebd7:#404040:#b50453:#33d17a:#cd14ff:#cd14ff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+  [[gray]]
+    allow_bold = False
+    background_darkness = 0.95
+    background_type = transparent
+    font = JetBrains Mono 10
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#b50453:#33d17a:#cd14ff:#00ffff:#cd00cd:#00ffff:#faebd7:#404040:#b50453:#33d17a:#cd14ff:#cd14ff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+  [[solarized]]
+    allow_bold = False
+    background_color = "#002b36"
+    background_darkness = 0.95
+    font = JetBrains Mono 10
+    foreground_color = "#839496"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#b50453:#33d17a:#cd14ff:#00ffff:#cd00cd:#00ffff:#faebd7:#404040:#b50453:#33d17a:#cd14ff:#cd14ff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+  [[red]]
+    allow_bold = False
+    background_darkness = 0.91
+    background_type = transparent
+    font = JetBrains Mono 10
+    foreground_color = "#ff1010"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#b50453:#33d17a:#cd14ff:#00ffff:#cd00cd:#00ffff:#faebd7:#404040:#b50453:#33d17a:#cd14ff:#cd14ff:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 532:250
+      maximised = False
+      fullscreen = False
+      size = 1501, 941
+      title = burw0r@pwnbox: ~
+      last_active_term = 9b382def-5ff4-4f6f-b9de-d68ad41f4af7
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = default
+      uuid = 9b382def-5ff4-4f6f-b9de-d68ad41f4af7
+[plugins]

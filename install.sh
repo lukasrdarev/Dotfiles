@@ -15,6 +15,7 @@ mkdir -p ~/Pictures/wallpapers/
 mkdir -p ~/.config/rofi/
 #mkdir -p ~/.config/kitty/
 mkdir -p ~/.config/picom/
+mkdir -p ~/.config/terminator
 
 
 cp "alacritty/alacritty.toml"    "$HOME/.config/alacritty/alacritty.toml"
@@ -23,6 +24,7 @@ cp "wallpapers/wallpapers.zip"   "$HOME/Pictures/wallpapers/"
 unzip "$HOME/Pictures/wallpapers/wallpapers.zip" -d "$HOME/Pictures/wallpapers/"
 cp "tmux/.tmux.conf"             "$HOME/.tmux.conf"
 cp "rofi/config.rasi"            "$HOME/.config/rofi/config.rasi"
+cp "terminator/config"		 "$HOME/.config/terminator/config"
 #cp "kitty/kitty.conf"            "$HOME/.config/kitty/kitty.conf"
 sudo cp ./randomtheme.sh /usr/local/bin
 
