@@ -26,6 +26,7 @@ cp "tmux/.tmux.conf"             "$HOME/.tmux.conf"
 cp "rofi/config.rasi"            "$HOME/.config/rofi/config.rasi"
 cp "terminator/config"		 "$HOME/.config/terminator/config"
 cp "kitty/kitty.conf"            "$HOME/.config/kitty/kitty.conf"
+cp "kitty/current-theme.conf"     "$HOME/.config/kitty/current-theme.conf"
 sudo cp ./randomtheme.sh /usr/local/bin
 
 #echo 'PS1="%F{blue}%n%f %F{red}%~%f >> "' >> ~/.zshrc
