@@ -196,7 +196,7 @@ bindsym $mod+r mode "resize"
 
 bar {
         i3bar_command i3bar --transparency
-        font pango:Jetbrains Mono 9
+        font pango:Jetbrains Mono 8
         #status_command i3blocks -c ~/.config/i3/i3blocks.conf
         #status_command i3status
         position bottom
@@ -204,7 +204,8 @@ bar {
             statusline #EEEEEE
             background #1C1D2B88
             focused_workspace #282A3E88 #282A3E88 #FFFFFF
-            statusline #E6FFF5#        }
+            statusline #E6FFF5
+        }
 
 }
 
