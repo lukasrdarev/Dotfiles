@@ -4,8 +4,7 @@
 # install.sh should be run without sudo
 
 sudo apt update
-sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh nitrogen picom flameshot rofi thunar kitty
-sudo pip3 install pywal
+sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh  picom flameshot rofi thunar kitty
 
 
 mkdir -p ~/.config/alacritty/
@@ -27,7 +26,6 @@ cp "rofi/config.rasi"            "$HOME/.config/rofi/config.rasi"
 cp "terminator/config"		 "$HOME/.config/terminator/config"
 cp "kitty/kitty.conf"            "$HOME/.config/kitty/kitty.conf"
 cp "kitty/current-theme.conf"     "$HOME/.config/kitty/current-theme.conf"
-sudo cp ./randomtheme.sh /usr/local/bin
 
 #echo 'PS1="%F{blue}%n%f %F{red}%~%f >> "' >> ~/.zshrc
 
