@@ -9,6 +9,7 @@ sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh  p
 
 mkdir -p ~/.config/alacritty/
 mkdir -p ~/.config/alacritty/themes
+mkdir -p ~/.config/nvim
 mkdir -p ~/.config/i3/
 mkdir -p ~/Pictures/wallpapers/
 mkdir -p ~/.config/rofi/
@@ -19,6 +20,7 @@ mkdir -p ~/.config/terminator
 
 cp "alacritty/alacritty.toml"    "$HOME/.config/alacritty/alacritty.toml"
 cp "i3/config"                   "$HOME/.config/i3/config"
+cp -r "nvim/"                   "$HOME/.config/nvim"
 cp "wallpapers/wallpapers.zip"   "$HOME/Pictures/wallpapers/"
 unzip "$HOME/Pictures/wallpapers/wallpapers.zip" -d "$HOME/Pictures/wallpapers/"
 cp "tmux/.tmux.conf"             "$HOME/.tmux.conf"
