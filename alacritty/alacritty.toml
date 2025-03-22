@@ -9,9 +9,18 @@ family = "Jetbrains Mono"
 
 [window]
 opacity = 0.9
-padding =  {x=15,y=15}
+#blur = true  -> for MacOS
+#option_as_alt = "OnlyLeft" -> for MacOS (alt+.= last arg)
+#padding =  {x=15,y=15}
 
 [window.dimensions]
 columns = 180
 lines = 56
 
+
+# for MacOS
+#[keyboard]
+#bindings = [
+  #{ key = "Right", mods = "Alt", chars = "\u001BF" },
+  #{ key = "Left",  mods = "Alt", chars = "\u001BB" },
+#]
