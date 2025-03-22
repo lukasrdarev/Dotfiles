@@ -14,4 +14,5 @@ vim.opt.relativenumber = true
 vim.cmd("colorscheme aura-dark")
 --vim.cmd("colorscheme retrobox")
 -- use terminal background color
---vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
+vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
+
