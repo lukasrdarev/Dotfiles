@@ -1,38 +1,24 @@
 [global_config]
-  borderless = True
 [keybindings]
 [profiles]
   [[default]]
-    background_darkness = 0.94
+    background_darkness = 0.79
     background_type = transparent
     cursor_fg_color = "#000000"
-    cursor_bg_color = "#ff05f6"
+    cursor_bg_color = "#aaaaaa"
     cursor_color_default = False
     font = JetBrains Mono 9
     foreground_color = "#ffffff"
     show_titlebar = False
     scrollbar_position = hidden
     scrollback_infinite = True
-    palette = "#000000:#ff05f6:#bfbfbf:#ff05f6:#ff6200:#cd00cd:#ffffff:#faebd7:#404040:#ff05f6:#0eff4c:#ff05f6:#57e389:#ff00ff:#00ffff:#ffffff"
-    use_system_font = False
-  [[green]]
-    background_darkness = 0.89
-    background_type = transparent
-    cursor_fg_color = "#000000"
-    cursor_bg_color = "#ff05f6"
-    cursor_color_default = False
-    font = JetBrains Mono 9
-    foreground_color = "#00ff00"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#000000:#ff05f6:#02a9f3:#cdcd00:#57e389:#cd00cd:#00cdcd:#faebd7:#404040:#ff05f6:#0eff4c:#ffff00:#57e389:#ff00ff:#00ffff:#ffffff"
+    palette = "#000000:#ff05f6:#57e389:#ff05f6:#5bff00:#cd00cd:#ffffff:#faebd7:#404040:#ff05f6:#0eff4c:#ff05f6:#57e389:#ff00ff:#00ffff:#ffffff"
     use_system_font = False
   [[green solid]]
     background_darkness = 0.96
     background_type = transparent
     cursor_fg_color = "#000000"
-    cursor_bg_color = "#ff05f6"
+    cursor_bg_color = "#ffffff"
     cursor_color_default = False
     font = JetBrains Mono Medium 9
     foreground_color = "#00ff00"
@@ -62,20 +48,9 @@
     scrollback_infinite = True
     palette = "#000000:#b50453:#33d17a:#cd14ff:#00ffff:#cd00cd:#00ffff:#faebd7:#404040:#b50453:#33d17a:#cd14ff:#cd14ff:#ff00ff:#00ffff:#ffffff"
     use_system_font = False
-  [[red]]
-    allow_bold = False
-    background_darkness = 0.91
-    background_type = transparent
-    font = JetBrains Mono 10
-    foreground_color = "#ff1010"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#000000:#b50453:#33d17a:#cd14ff:#00ffff:#cd00cd:#00ffff:#faebd7:#404040:#b50453:#33d17a:#cd14ff:#cd14ff:#ff00ff:#00ffff:#ffffff"
-    use_system_font = False
   [[white]]
     allow_bold = False
-    background_darkness = 0.83
+    background_darkness = 0.69
     background_type = transparent
     font = JetBrains Mono 10
     foreground_color = "#ffffff"
@@ -83,25 +58,12 @@
     scrollbar_position = hidden
     scrollback_infinite = True
     palette = "#000000:#b50453:#33d17a:#cd14ff:#00ffff:#cd00cd:#00ffff:#faebd7:#404040:#b50453:#33d17a:#cd14ff:#cd14ff:#ff00ff:#00ffff:#ffffff"
-    use_system_font = False
-  [[blue-black]]
-    background_darkness = 0.95
-    background_type = transparent
-    cursor_fg_color = "#000000"
-    cursor_bg_color = "#aaaaaa"
-    cursor_color_default = False
-    font = JetBrains Mono 9
-    foreground_color = "#ffffff"
-    show_titlebar = False
-    scrollbar_position = hidden
-    scrollback_infinite = True
-    palette = "#000000:#ff05f6:#0a1fff:#ff05f6:#00ffff:#cd00cd:#00cdcd:#faebd7:#404040:#ff05f6:#0eff4c:#ff05f6:#57e389:#ff00ff:#00ffff:#ffffff"
     use_system_font = False
   [[orange]]
     background_darkness = 0.95
     background_type = transparent
     cursor_fg_color = "#000000"
-    cursor_bg_color = "#aaaaaa"
+    cursor_bg_color = "#ffffff"
     cursor_color_default = False
     font = JetBrains Mono 9
     foreground_color = "#ffffff"
@@ -122,6 +84,32 @@
     scrollbar_position = hidden
     scrollback_infinite = True
     palette = "#000000:#ff05f6:#7a0ada:#ff05f6:#00ffff:#cd00cd:#00cdcd:#faebd7:#404040:#ff05f6:#0eff4c:#ff05f6:#57e389:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+  [[default - green white]]
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#ff05f6"
+    cursor_color_default = False
+    font = JetBrains Mono 9
+    foreground_color = "#ffffff"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#ff05f6:#bfbfbf:#ff05f6:#33d17a:#cd00cd:#ffffff:#faebd7:#404040:#ff05f6:#0eff4c:#ff05f6:#57e389:#ff00ff:#00ffff:#ffffff"
+    use_system_font = False
+  [[green transparent]]
+    background_darkness = 0.8
+    background_type = transparent
+    cursor_fg_color = "#000000"
+    cursor_bg_color = "#aaaaaa"
+    cursor_color_default = False
+    font = JetBrains Mono Medium 9
+    foreground_color = "#00ff00"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scrollback_infinite = True
+    palette = "#000000:#ff05f6:#02a9f3:#c80bff:#ff0909:#cd00cd:#00cdcd:#faebd7:#404040:#ff05f6:#0eff4c:#9141ac:#57e389:#ff00ff:#00ffff:#ffffff"
     use_system_font = False
 [layouts]
   [[default]]
