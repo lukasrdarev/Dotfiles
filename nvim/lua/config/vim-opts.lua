@@ -12,3 +12,10 @@ vim.cmd("colorscheme aura-dark")
 --vim.cmd("colorscheme retrobox")
 -- use terminal background color
 vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
+
+-- ========== [highlight yanked] ==========
+vim.api.nvim_create_autocmd("TextYankPost", {
+    callback = function()
+        vim.highlight.on_yank()
+    end,
+})
