@@ -1,14 +1,15 @@
-[general]
-import = ["~/.config/alacritty/themes/themes/github_dark_tritanopia.toml"]
+import = ["~/.config/alacritty/themes/github_dark_tritanopia.toml"]
+#import = ["~/.config/alacritty/themes/aura-modified.toml"]
 
 [font]
 size = 9.6
 
 [font.normal]
-family = "Jetbrains Mono"
+family = "JetBrainsMonoNL NF Medium"
 
 [window]
-opacity = 0.9
+opacity = 0.8
+#padding =  {x=10,y=10}
 #blur = true  -> for MacOS
 #option_as_alt = "OnlyLeft" -> for MacOS (alt+.= last arg)
 #padding =  {x=15,y=15}

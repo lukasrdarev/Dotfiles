@@ -214,7 +214,7 @@ bar {
 #---------------------------------------
 
 #set wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/wallpaper-26.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/wallpapers/wallpaper-29.jpg
 
 #default split vertical
 default_orientation horizontal
