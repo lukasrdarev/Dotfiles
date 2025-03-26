@@ -4,7 +4,7 @@
 # install.sh should be run without sudo
 
 sudo apt update
-sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh  picom flameshot rofi thunar kitty
+sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh  picom flameshot rofi thunar kitty ripgrep
 
 
 mkdir -p ~/.config/alacritty/
