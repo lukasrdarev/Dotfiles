@@ -16,19 +16,19 @@ mkdir -p ~/.config/rofi/
 mkdir -p ~/.config/kitty/
 mkdir -p ~/.config/picom/
 mkdir -p ~/.config/terminator
-mkdir -p /usr/local/share/fonts
+sudo mkdir -p /usr/local/share/fonts
 
 
 cp "alacritty/alacritty.toml"    "$HOME/.config/alacritty/alacritty.toml"
 cp "i3/config"                   "$HOME/.config/i3/config"
 cp -r "nvim/"                   "$HOME/.config/nvim"
-cp "wallpapers/*"   "$HOME/Pictures/wallpapers/"
+cp "wallpapers/*"                "$HOME/Pictures/wallpapers/"
 cp "tmux/.tmux.conf"             "$HOME/.tmux.conf"
 cp "rofi/config.rasi"            "$HOME/.config/rofi/config.rasi"
-cp "terminator/config"		 "$HOME/.config/terminator/config"
+cp "terminator/config"		       "$HOME/.config/terminator/config"
 cp "kitty/kitty.conf"            "$HOME/.config/kitty/kitty.conf"
 cp "kitty/current-theme.conf"     "$HOME/.config/kitty/current-theme.conf"
-sudo cp "fonts/*.ttf"             "/usr/local/share/fonts"
+sudo cp fonts/*.ttf               "/usr/local/share/fonts"
 
 
 #echo 'PS1="%F{blue}%n%f %F{red}%~%f >> "' >> ~/.zshrc
