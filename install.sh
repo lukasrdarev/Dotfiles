@@ -7,6 +7,11 @@ sudo apt update
 sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh  picom flameshot rofi thunar kitty ripgrep
 
 
+# TODO: add suport for arch,debin,fedora
+# sudo pacman -Sy
+# sudo pacman  -Sy --noconfirm i3  alacritty terminator ttf-jetbrains-mono feh nitrogen picom flameshot rofi thunar kitty python-pip zip unzip git python-pywal firefox tmux zsh 
+
+
 mkdir -p ~/.config/alacritty/
 mkdir -p ~/.config/alacritty/themes
 mkdir -p ~/.config/nvim
