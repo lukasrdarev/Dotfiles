@@ -4,7 +4,7 @@
 # install.sh should be run without sudo
 
 sudo apt update
-sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh  picom flameshot rofi thunar kitty ripgrep
+sudo apt install -y i3 i3blocks alacritty terminator fonts-jetbrains-mono feh  picom flameshot rofi thunar kitty ripgrep vim neovim
 
 
 # TODO: add suport for arch,debin,fedora
