@@ -27,7 +27,7 @@ sudo mkdir -p /usr/local/share/fonts
 cp "alacritty/alacritty.toml"    "$HOME/.config/alacritty/alacritty.toml"
 cp "i3/config"                   "$HOME/.config/i3/config"
 cp -r "nvim/"                   "$HOME/.config/"
-cp "wallpapers/*"                "$HOME/Pictures/wallpapers/"
+cp -r "wallpapers/*"                "$HOME/Pictures/"
 cp "tmux/.tmux.conf"             "$HOME/.tmux.conf"
 cp "rofi/config.rasi"            "$HOME/.config/rofi/config.rasi"
 cp "terminator/config"		       "$HOME/.config/terminator/config"
