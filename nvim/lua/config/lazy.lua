@@ -22,6 +22,9 @@ vim.opt.rtp:prepend(lazypath)
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- Due to issues with neo-tree searching in wrong dir
+vim.g.netrw_keepdir = 0
+
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
